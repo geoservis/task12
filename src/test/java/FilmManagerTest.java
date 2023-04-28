@@ -80,7 +80,7 @@ public class FilmManagerTest {
 
     @Test
     public void test5() {
-        FilmManager manager = new FilmManager(10);
+        FilmManager manager = new FilmManager(35);
         manager.addFilm("Film 10");
 
         String[] expected = {"Film 10"};
