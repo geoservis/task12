@@ -41,7 +41,7 @@ public class FilmManagerTest {
 
     @Test
     public void test3() {
-        FilmManager manager = new FilmManager(35);
+        FilmManager manager = new FilmManager(10);
         manager.addFilm("Film 1");
         manager.addFilm("Film 2");
         manager.addFilm("Film 3");
